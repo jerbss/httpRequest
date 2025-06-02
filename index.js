@@ -1,5 +1,5 @@
 export async function loadEndpoints() {
-  const resp = await fetch('http://localhost:3000/')  
+  const resp = await fetch('http://localhost:3000/')
   const html = await resp.text()
   const doc = new DOMParser().parseFromString(html, 'text/html')
   const links = Array.from(doc.querySelectorAll('a[href]'))
