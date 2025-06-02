@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API JSON Explorer</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; }
+    .controls { margin-bottom: 1rem; }
+    .controls > * { margin-right: .5rem; margin-bottom: .5rem; }
+    ul { list-style: none; padding: 0; }
+    li { margin: .5rem 0; }
+    button, input { padding: .4rem .8rem; }
+    pre { background: #f4f4f4; padding: 1rem; overflow: auto; max-height: 60vh; }
+  </style>
+</head>
+<body>
+  <h1>Explorador de Endpoints</h1>
+
+  <div class="controls">
+    <button id="btn-group-regime">Agrupar por Regime</button>
+    <button id="btn-with-cpf">Com CPF</button>
+    <button id="btn-no-cpf">Sem CPF</button>
+    <button id="btn-ativas">Ativas</button>
+    <button id="btn-inativas">Inativas</button>
+    <input type="month" id="input-month" />
+    <button id="btn-count-month">Contar Ativas no Mês</button>
+    <input type="text" id="input-socio" placeholder="Nome do sócio" />
+    <button id="btn-by-socio">Por Sócio</button>
+    <button id="btn-group-ramo">Agrupar por Ramo</button>
+  </div>
+
+  <h2>Endpoints disponíveis</h2>
+  <ul id="endpoints"></ul>
+
+  <h2>Resposta</h2>
+  <pre id="output">Selecione uma ação...</pre>
+
+  <script type="module" src="./index.js"></script>
+</body>
+</html>

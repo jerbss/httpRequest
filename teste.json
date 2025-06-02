@@ -1,0 +1,104 @@
+{
+  "empresas": [
+    {
+      "id": 101,
+      "nome": "Empresa A Ltda",
+      "regimeTributario": "Simples Nacional",
+      "cpfCnpj": "12.345.678/0001-90",
+      "status": "ativa",
+      "ramoAtividade": "Comércio",
+      "dataRegistro": "2024-01-15",
+      "socios": ["Francisco Orlando", "Maria Silva"]
+    },
+    {
+      "id": 102,
+      "nome": "Tech Solutions S/A",
+      "regimeTributario": "Lucro Presumido",
+      "cpfCnpj": null,
+      "status": "ativa",
+      "ramoAtividade": "Serviços",
+      "dataRegistro": "2024-02-03",
+      "socios": ["Carlos Eduardo"]
+    },
+    {
+      "id": 103,
+      "nome": "Construtora Nova Era",
+      "regimeTributario": "Lucro Real",
+      "cpfCnpj": "98.765.432/0001-10",
+      "status": "inativa",
+      "ramoAtividade": "Construção",
+      "dataRegistro": "2023-12-20",
+      "socios": ["Ana Beatriz", "Francisco Orlando"]
+    },
+    {
+      "id": 104,
+      "nome": "Padaria Pão Quente",
+      "regimeTributario": "Simples Nacional",
+      "cpfCnpj": "123.456.789-01",
+      "status": "ativa",
+      "ramoAtividade": "Alimentício",
+      "dataRegistro": "2024-03-10",
+      "socios": ["Marcos Paulo"]
+    },
+    {
+      "id": 105,
+      "nome": "Agropecuária Verde Campo",
+      "regimeTributario": "Lucro Presumido",
+      "cpfCnpj": null,
+      "status": "ativa",
+      "ramoAtividade": "Agronegócio",
+      "dataRegistro": "2024-01-25",
+      "socios": ["Francisco Orlando", "Luiza Helena"]
+    },
+    {
+      "id": 106,
+      "nome": "Consultoria Alpha",
+      "regimeTributario": "Lucro Real",
+      "cpfCnpj": "234.567.890/0001-55",
+      "status": "inativa",
+      "ramoAtividade": "Consultoria",
+      "dataRegistro": "2023-11-05",
+      "socios": ["Fernanda Costa"]
+    },
+    {
+      "id": 107,
+      "nome": "Loja de Eletrônicos DigitalTech",
+      "regimeTributario": "Simples Nacional",
+      "cpfCnpj": "345.678.901/0001-33",
+      "status": "ativa",
+      "ramoAtividade": "Varejo",
+      "dataRegistro": "2024-02-18",
+      "socios": ["Ricardo Lima"]
+    },
+    {
+      "id": 108,
+      "nome": "Hospital Vida e Saúde",
+      "regimeTributario": "Lucro Real",
+      "cpfCnpj": null,
+      "status": "ativa",
+      "ramoAtividade": "Saúde",
+      "dataRegistro": "2024-03-01",
+      "socios": ["Patrícia Souza", "Francisco Orlando"]
+    },
+    {
+      "id": 109,
+      "nome": "Escritório Legal Advocacia",
+      "regimeTributario": "Simples Nacional",
+      "cpfCnpj": "456.789.012/0001-77",
+      "status": "inativa",
+      "ramoAtividade": "Jurídico",
+      "dataRegistro": "2023-10-30",
+      "socios": ["Leonardo Rocha"]
+    },
+    {
+      "id": 110,
+      "nome": "Transportadora Rápido Cargo",
+      "regimeTributario": "Lucro Presumido",
+      "cpfCnpj": null,
+      "status": "ativa",
+      "ramoAtividade": "Logística",
+      "dataRegistro": "2024-01-05",
+      "socios": ["Francisco Orlando", "Gabriela Mendes"]
+    }
+  ]
+}
